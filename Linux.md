@@ -15,6 +15,6 @@
 
 ### socat
 - debian/ubuntu
-apt-get install socat
+``` apt-get install socat ```
 - centos/redhat
-yum install -y socat
+``` yum install -y socat ```
