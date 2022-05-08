@@ -36,3 +36,26 @@ memory_limit = 8M ;每个PHP页面所吃掉的最大内存，默认8M。
 4、存盘，然后重启 iis admin service 服务，重启IIS。
 
 OK，有以上三步，PHP的2M限制完全搞定！
+
+### 卸载
+
+先用rpm -qa | grep php 查看全部依赖包，再用命令 rpm -e 包名 将它们一一删除。 删除时会提示依赖关系，提示那个包就先那个包即可。
+
+大概顺序如下：
+rpm -e php-fpm-5.3.3-22.el6.x86_64
+
+rpm-e php-pdo-5.3.3-22.el6.x86_64
+
+rpm -e php-pear-1.9.4-4.el6.noarch
+
+rpm-e php-cli-5.3.3-22.el6.x86_64
+
+rpm -e php-5.3.3-22.el6.x86_64
+
+rpm-e php-xml-5.3.3-22.el6.x86_64
+
+rpm -e php-gd-5.3.3-22.el6.x86_64
+
+rpm-e php-common-5.3.3-22.el6.x86_64
+
+干净删除mysql
