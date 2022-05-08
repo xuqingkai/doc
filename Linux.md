@@ -8,7 +8,7 @@
 
 查看所有防火墙服务：firewall-cmd --list-all  
 查看防火墙所有开放端口：firewall-cmd --list-ports  
-查看XX端口是否开放：firewall-cmd --permanent --query-port=80/tcp  
+查看XX端口是否开放：firewall-cmd --query-port=80/tcp  
 添加80端口：firewall-cmd --add-port=80/tcp --permanent  
 移除80端口：firewall-cmd --remove-port=80/tcp --permanent  
 重新载入防火墙配置：firewall-cmd --reload  
