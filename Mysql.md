@@ -2,8 +2,8 @@
 - https://downloads.mysql.com/archives/installer/
 ### 卸载
 
-yum remove mysql mysql-server mysql-libs compat-mysql51 
-rm -rf /var/lib/mysql 
+yum remove mysql mysql-server mysql-libs compat-mysql51  
+rm -rf /var/lib/mysql  
 rm /etc/my.cnf 
 查看是否还有mysql软件： 
 rpm -qa|grep mysql 
