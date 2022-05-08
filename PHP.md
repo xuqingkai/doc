@@ -51,3 +51,4 @@ rpm -e php-gd-5.3.3-22.el6.x86_64
 rpm-e php-common-5.3.3-22.el6.x86_64
 干净删除mysql
 
+
