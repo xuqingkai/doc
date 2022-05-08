@@ -14,7 +14,7 @@
 重新载入防火墙配置：firewall-cmd --reload  
 
 ### socat
-- debian/ubuntu
+- debian/ubuntu：
 ``` apt-get install socat ```
-- centos/redhat
+- centos/redhat：
 ``` yum install -y socat ```
