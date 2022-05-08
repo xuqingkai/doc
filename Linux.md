@@ -1,4 +1,4 @@
-### CENTOS
+### 防火墙
 
 启动防火墙服务：systemctl start firewalld  
 停止防火墙服务：systemctl stop firewalld  
@@ -13,3 +13,8 @@
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
 重新载入防火墙配置：firewall-cmd --reload  
 
+### socat
+- debian/ubuntu
+apt-get install socat
+- centos/redhat
+yum install -y socat
