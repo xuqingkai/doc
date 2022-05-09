@@ -6,6 +6,10 @@ sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;  
 service sshd restart  
 
+### 系统：
+查看系统信息：uname --help
+
+
 ### 防火墙
 
 启动防火墙服务：systemctl start firewalld  
