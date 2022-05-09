@@ -1,3 +1,11 @@
+### 切换为root，并改密为1234qwer
+
+sudo -i  
+echo root:1234qwer |chpasswd root  
+sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;  
+sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;  
+service sshd restart  
+
 ### 防火墙
 
 启动防火墙服务：systemctl start firewalld  
