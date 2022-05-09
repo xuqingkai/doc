@@ -13,6 +13,11 @@
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
 重新载入防火墙配置：firewall-cmd --reload  
 
+### 卸载jdk包
+查询：rpm -qa|grep jdk  
+显示：jdk-1.7.0_71-fcs.x86_64  
+卸载：rpm -e --nodeps jdk-1.7.0_71-fcs.x86_64  
+
 ### socat
 
 - centos/redhat：
