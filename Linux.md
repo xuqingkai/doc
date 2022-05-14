@@ -25,6 +25,9 @@ service sshd restart
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
 重新载入防火墙配置：firewall-cmd --reload  
 
+### 端口
+查看3306端口占用情况：netstat -untlp | grep 3306  
+
 ### 卸载jdk包
 查询：rpm -qa|grep jdk  
 显示：jdk-1.7.0_71-fcs.x86_64  
