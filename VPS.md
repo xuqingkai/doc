@@ -4,3 +4,9 @@
 
 ### virmach：https://www.virmach.com/
 - 低价LINUX，1.25美元/月： https://billing.virmach.com/index.php?rp=/store/cloud-computing-linux-vps-kvm
+
+### 香港空间，星云
+- http://www.xingyun96.cn/servers/vps/?typeid=3
+
+### 香港空间，狗云：
+- http://www.dogyun.com
