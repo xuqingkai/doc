@@ -23,7 +23,7 @@ service sshd restart
 查看防火墙是否开放8888端口：firewall-cmd --query-port=8888/tcp  
 打开防火墙8888端口：firewall-cmd --add-port=8888/tcp --permanent  
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
-重新载入防火墙配置：firewall-cmd --reload  
+务必重载防火墙配置：firewall-cmd --reload  
 
 ### 端口
 查看3306端口占用情况：netstat -untlp | grep 3306  
