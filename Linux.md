@@ -19,7 +19,7 @@ service sshd restart
 查看防火墙服务运行状态：systemctl status firewalld -l  
 
 查看所有防火墙服务清单：firewall-cmd --list-all  
-查看防火墙所有已开放端口：firewall-cmd --list-ports  
+查看防火墙所有已开放端口：firewall-cmd --list-ports --permanent  
 查看防火墙是否开放8888端口：firewall-cmd --query-port=8888/tcp  
 打开防火墙8888端口：firewall-cmd --add-port=8888/tcp --permanent  
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
