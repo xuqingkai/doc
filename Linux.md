@@ -10,10 +10,13 @@ service sshd restart
 给root设置密码：sudo password root  
 查看sshd服务：netstat -anp | grep sshd  
 重启sshd服务：service sshd restart 或 /etc/init.d/sshd restart  
-配置允许账号方式登录：打开文件/etc/ssh/sshd_config，注意777权限  
-开启普通账号密码登录：PasswordAuthentication yes，没有就手动输入  
-允许root账号密码登录：PermitRootLogin yes，没有就手动输入  
 
+### 配置允许账号方式登录：/etc/ssh/sshd_config
+赋予读写权限：sudo chmod 777 /etc/ssh/sshd_config  
+打开配置文件：vi /etc/ssh/sshd_config  
+开启普通账号密码登录：PasswordAuthentication yes  
+允许root账号密码登录：PermitRootLogin yes  
+以上两条，没有就手工加上  
 
 ### 系统：uname --help
 查看系统信息：uname -a
