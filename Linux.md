@@ -6,8 +6,17 @@ sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;  
 service sshd restart  
 
-### 系统：
-查看系统信息：uname --help
+### 设置密码：给当前账户改密码需要验证当前密码，否则不需要
+给root设置密码：sudo password root  
+查看sshd服务：netstat -anp | grep sshd  
+重启sshd服务：service sshd restart 或 /etc/init.d/sshd restart  
+配置允许账号方式登录：打开文件/etc/ssh/sshd_config，注意777权限  
+开启普通账号密码登录：PasswordAuthentication yes，没有就手动输入  
+允许root账号密码登录：PermitRootLogin yes，没有就手动输入  
+
+
+### 系统：uname --help
+查看系统信息：uname -a
 
 
 ### 防火墙
