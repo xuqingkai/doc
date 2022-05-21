@@ -16,6 +16,8 @@ service sshd restart
 打开配置文件：vi /etc/ssh/sshd_config  
 开启普通账号密码登录：PasswordAuthentication yes  
 允许root账号密码登录：PermitRootLogin yes  
+改回读写权限：sudo chmod 644 /etc/ssh/sshd_config  
+重启服务：sudo service sshd restart
 以上两条，没有就手工加上  
 
 ### 系统：uname --help
