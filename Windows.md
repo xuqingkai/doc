@@ -4,3 +4,5 @@
 ```
 Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppxManifest.xml" -verbose }
 ```
+### 查看端口情况
+- netstat -ano
