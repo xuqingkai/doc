@@ -39,6 +39,7 @@ service sshd restart
 查看防火墙所有已开放端口：firewall-cmd --list-ports --permanent  
 查看防火墙是否开放8888端口：firewall-cmd --query-port=8888/tcp  
 打开防火墙8888端口：firewall-cmd --add-port=8888/tcp --permanent  
+打开防火墙8080-8090端口：firewall-cmd --add-port=8080-8090/tcp --permanent  
 移除防火墙8888端口：firewall-cmd --remove-port=8888/tcp --permanent  
 务必重载防火墙配置：firewall-cmd --reload  
 
