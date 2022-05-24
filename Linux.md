@@ -7,9 +7,9 @@ sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/ss
 service sshd restart  
 
 ### 设置密码：给当前账户改密码需要验证当前密码，否则不需要
-给root设置密码：sudo password root  
+给root设置密码：sudo passwd root  
 切换到root用户：su root  
-再给ubuntu设置密码：sudo password ubuntu  
+再给ubuntu设置密码：sudo passwd ubuntu  
 查看sshd服务：netstat -anp | grep sshd  
 重启sshd服务：service sshd restart 或 /etc/init.d/sshd restart  
 
