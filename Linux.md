@@ -27,7 +27,7 @@ service sshd restart
 查看系统信息：uname -a
 
 
-### 防火墙
+### Centos防火墙
 
 启动防火墙服务：systemctl start firewalld  
 停止防火墙服务：systemctl stop firewalld  
