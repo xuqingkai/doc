@@ -52,4 +52,20 @@ rpm -e php-gd-5.3.3-22.el6.x86_64
 rpm-e php-common-5.3.3-22.el6.x86_64  
 干净删除mysql  
 
+### 宝塔无法启动
+```
+curl http://download.bt.cn/install/update6.sh|bash
+```
+### 重新编译zip
+```
+cd /www/server/php/73/src/ext/zip/
+/www/server/php/73/bin/phpize
+./configure --with-php-config=/www/server/php/73/bin/php-config
+make && make install
+```
+### php配置文件添加
+```
+extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/fileinfo.so
+extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/zip.so
+```
 
