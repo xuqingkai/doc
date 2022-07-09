@@ -16,7 +16,7 @@ buildscript {
     repositories {
         //google()
         //mavenCentral()
-		maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
         maven { url 'https://maven.aliyun.com/repository/public' }
     }
@@ -48,7 +48,10 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 
 ### 设定Android SDK环境变量
 #### ANDROID_HOME
-D:\Android\Sdk
+- 指向Android SDK目录下的bin目录
+
+#### Path
+- 指向Flutter SDK目录下的bin目录
 
 #### FLUTTER_STORAGE_BASE_URL
 - https://storage.flutter-io.cn/
