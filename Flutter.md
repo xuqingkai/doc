@@ -6,9 +6,11 @@ https://dart.dev/get-dart/archive
 ### Flutter SDK下载地址，自带了Dart SDK
 https://docs.flutter.dev/development/tools/sdk/releases
 
-### 编辑环境变量：系统变量/Path
-- 指向Flutter SDK目录下的bin目录
-
+### 环境变量
+- Path
+```
+指向Flutter SDK目录下的bin目录
+```
 
 ### 更改SDK镜像地址
 - ./Flutter_SDK/packages/flutter_tools/gradle/flutter.gradle
@@ -48,7 +50,7 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 - Flutter Widget Snippets，调试用的，可不装
 
 ### 设定Android SDK环境变量
--ANDROID_HOME
+- ANDROID_HOME
 ```
 指向Android SDK目录下的bin目录
 ```
