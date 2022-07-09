@@ -13,6 +13,17 @@ https://docs.flutter.dev/development/tools/sdk/releases
 ```
 指向Flutter SDK目录下的bin目录
 ```
+### 依赖配置文件：pubspec.yaml
+```
+name: test
+description: none
+version: 1.0.0
+environment:
+  sdk: '^2.17.5'
+dependencies: 
+  http: ^0.13.0
+```
+- 冒号后面必须紧跟一个空格
 
 ### 相关命令
 - 初始化依赖：pub get或者flutter pub get
