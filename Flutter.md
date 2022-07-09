@@ -12,6 +12,10 @@ https://docs.flutter.dev/development/tools/sdk/releases
 指向Flutter SDK目录下的bin目录
 ```
 
+### 相关命令
+- 初始化依赖：pub get或者flutter pub get
+
+
 ### 更改SDK镜像地址
 - ./Flutter_SDK/packages/flutter_tools/gradle/flutter.gradle
 ```
@@ -45,6 +49,7 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 ```
 
 ### 需要安装的插件
+- Code Runner，右键运行代码工具
 - Dart，开发语言
 - Flutter，框架
 - Flutter Widget Snippets，调试用的，可不装
