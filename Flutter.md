@@ -47,7 +47,14 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 - Flutter Widget Snippets，调试用的，可不装
 
 ### 设定Android SDK环境变量
-- ANDROID_HOME指向D:\Android\Sdk
+- ANDROID_HOME
+D:\Android\Sdk
+
+- FLUTTER_STORAGE_BASE_URL
+https://storage.flutter-io.cn/
+
+- PUB_HOSTED_URL 
+https://pub.flutter-io.cn/
 
 
 ### 创建项目命令
