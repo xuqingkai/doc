@@ -109,3 +109,5 @@ allprojects {
     }
 }
 ```
+### 运行项目
+flutter run
