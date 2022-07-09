@@ -22,6 +22,20 @@ buildscript {
 }
 ```
 
+### 更改引入地址
+- ./Flutter_SDK/packages/flutter_tools/lib/src/http_host_validator.dart
+```
+/// Android specific required HTTP hosts.
+List<String> androidRequiredHttpHosts(Platform platform) {
+  return <String>[
+    // If kEnvCloudUrl is set, it will be used as the maven host
+    //https://maven.google.com/
+    if (!platform.environment.containsKey(kEnvCloudUrl))
+      'https://dl.google.com/dl/android/maven2/',
+  ];
+}
+```
+
 ### 需要安装的插件
 - Dart，开发语言
 - Flutter，框架
