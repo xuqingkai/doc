@@ -1,7 +1,12 @@
 ## VSCode
 
+### Dart SDK
+https://dart.dev/get-dart/archive
+
 ### Flutter SDK下载地址，自带了Dart SDK
 https://docs.flutter.dev/development/tools/sdk/releases
+
+环境变量
 
 
 ### 更改SDK镜像地址
@@ -40,6 +45,10 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 - Dart，开发语言
 - Flutter，框架
 - Flutter Widget Snippets，调试用的，可不装
+
+### 设定Android SDK环境变量
+- ANDROID_HOME指向D:\Android\Sdk
+
 
 ### 创建项目命令
 flutter create myFirstFlutterProject
