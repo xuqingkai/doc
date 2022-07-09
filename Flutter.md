@@ -49,16 +49,21 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 
 ### 设定Android SDK环境变量
 -ANDROID_HOME
-- 指向Android SDK目录下的bin目录
-- 
-- FLUTTER_STORAGE_BASE_URL
-- https://storage.flutter-io.cn/
-- https://mirrors.tuna.tsinghua.edu.cn/flutter
-- 
-- PUB_HOSTED_URL 
-- https://pub.flutter-io.cn/
-- https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+```
+指向Android SDK目录下的bin目录
+```
 
+- FLUTTER_STORAGE_BASE_URL
+```
+https://storage.flutter-io.cn/
+https://mirrors.tuna.tsinghua.edu.cn/flutter
+```
+
+- PUB_HOSTED_URL 
+```
+https://pub.flutter-io.cn/
+https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+```
 
 ### 创建项目命令
 flutter create myFirstFlutterProject
