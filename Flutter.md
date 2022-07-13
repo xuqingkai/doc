@@ -26,7 +26,7 @@
 指向Flutter SDK目录下的bin目录
 ```
 ### JAVA SDK
-- https://mirrors.tuna.tsinghua.edu.cn/Adoptium
+- http://www.codebaoku.com/jdk/jdk-index.html
 - JAVA_HOME
 ```
 D:\Program Files\Java\jdk1.8.0_202
