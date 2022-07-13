@@ -1,15 +1,19 @@
 ## VSCode
 
-### Dart SDK：https://dart.cn
-英文官网：https://dart.dev/get-dart/archive  
-中文官网：https://dart.cn/tools/sdk/archive
+### Dart
+https://dart.cn
+### SDK
+- https://dart.dev/get-dart/archive  
+- https://dart.cn/tools/sdk/archive
 
 - 2.12开始，默认空值安全保护模式，及null safety模式，定义变量需要用String 或者String?区分
 - 插件市场：https://dart.dev/packages
 
-### Flutter SDK（含Dart SDK）：https://flutter.cn
-英文官网：https://docs.flutter.dev/development/tools/sdk/releases  
-中文官网：https://flutter.cn/docs/development/tools/sdk/releases
+### Flutter 
+https://flutter.cn
+### SDK：
+- https://docs.flutter.dev/development/tools/sdk/releases  
+- https://flutter.cn/docs/development/tools/sdk/releases
 
 ### 环境变量
 - Path
