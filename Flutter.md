@@ -90,6 +90,12 @@ https://pub.flutter-io.cn/
 https://mirrors.tuna.tsinghua.edu.cn/dart-pub
 ```
 
+- CHROME_EXECUTABLE，指向谷歌浏览器
+```
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+```
+
+
 ### 创建项目命令
 flutter create myFirstFlutterProject
 
