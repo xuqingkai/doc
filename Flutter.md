@@ -10,7 +10,7 @@
 - https://dart.dev/get-dart/archive  
 - https://dart.cn/tools/sdk/archive
 
-### 插件市场
+### packages
 - https://dart.dev/packages
 
 ### Flutter 
@@ -25,6 +25,24 @@
 ```
 指向Flutter SDK目录下的bin目录
 ```
+### JAVA SDK
+- https://mirrors.tuna.tsinghua.edu.cn/Adoptium
+- JAVA_HOME
+```
+D:\Program Files\Java\jdk1.8.0_202
+```
+
+- CLASSPATH
+```
+.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+```
+
+- PATH
+```
+%JAVA_HOME%\bin
+%JAVA_HOME%\jre\bin
+```
+
 ### 依赖配置文件：pubspec.yaml
 ```
 name: test
