@@ -1,16 +1,16 @@
 ## VSCode
 
-### Dart
-https://dart.cn
+### Dart:
+- https://dart.cn
+- 2.12开始，默认空值安全保护模式，及null safety模式，定义变量需要用String 或者String?区分
+- 插件市场：https://dart.dev/packages
+
 ### SDK
 - https://dart.dev/get-dart/archive  
 - https://dart.cn/tools/sdk/archive
 
-- 2.12开始，默认空值安全保护模式，及null safety模式，定义变量需要用String 或者String?区分
-- 插件市场：https://dart.dev/packages
-
 ### Flutter 
-https://flutter.cn
+- https://flutter.cn
 ### SDK：
 - https://docs.flutter.dev/development/tools/sdk/releases  
 - https://flutter.cn/docs/development/tools/sdk/releases
