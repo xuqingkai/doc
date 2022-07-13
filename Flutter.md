@@ -136,6 +136,11 @@ allprojects {
 - 检查环境：flutter doctor
 - 运行项目：flutter run
 ### 错误处理
-- 如果提示Android licenses no accept，可以运行flutter run --android-licenses
+#### Android licenses no accept
+```
+flutter run --android-licenses
+```
+cmdline-tools component is missing
+
 - 如果提示：Command-line错误，可以尝试从Android Studio，Tools，SDK Manager，SDK Tools中安装
 
