@@ -16,7 +16,7 @@
 ### Flutter 
 - https://flutter.cn
 - https://github.com/flutter/flutter
-### SDK：
+### SDK：已经包含了Dart SDK，所以上面的内容其实不用下载
 - https://docs.flutter.dev/development/tools/sdk/releases  
 - https://flutter.cn/docs/development/tools/sdk/releases
 
