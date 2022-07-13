@@ -46,6 +46,11 @@ buildscript {
     }
 }
 ```
+```
+class FlutterPlugin implements Plugin<Project> {
+    //private static final String DEFAULT_MAVEN_HOST = "https://storage.googleapis.com";
+    private static final String DEFAULT_MAVEN_HOST = "https://storage.flutter-io.cn";
+```
 
 ### 更改引入地址
 - ./Flutter_SDK/packages/flutter_tools/lib/src/http_host_validator.dart
