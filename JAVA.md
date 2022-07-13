@@ -1,5 +1,7 @@
 ### 下载地址
+https://mirrors.tuna.tsinghua.edu.cn/Adoptium
 https://repo.huaweicloud.com/java/jdk/
+http://www.codebaoku.com/jdk/jdk-index.html
 
 
 ### 环境变量
