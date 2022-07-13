@@ -161,7 +161,7 @@ flutter run --android-licenses
 #### cmdline-tools component is missing
 
 - 可以尝试从Android Studio，Tools，SDK Manager，SDK Tools中安装Android SDK Command-line Tools (latest)
-- 命令行
+- 命令行,powershell如不行，则必须从运行cmd进入终端
 ```
 cd D:\android\sdk\
 .\sdkmanager --sdk_root=D:\Android\Sdk\ "cmdline-tools;latest"
