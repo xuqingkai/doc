@@ -150,10 +150,8 @@ allprojects {
     }
 }
 ```
-### 相关名录
-- 检查环境：flutter doctor
-- 运行项目：flutter run
-### 错误处理
+### 检查环境：flutter doctor
+
 #### Android licenses no accept
 ```
 flutter run --android-licenses
@@ -167,3 +165,10 @@ cd D:\android\sdk\
 .\sdkmanager --sdk_root=D:\Android\Sdk\ "cmdline-tools;latest"
 .\sdkmanager --sdk_root=%ANDROID_HOME% "cmdline-tools;latest"
 ```
+###  运行项目：flutter run
+- 如果卡在下面一行一直运行
+```
+Running Gradle task 'assembleDebug'...                 /
+```
+- 1，忘记更改了项目的镜像地址，切记是两处
+-,2，设备的安卓版本是Android SDK里没有了，正在拼命下载中，，，等待即可
