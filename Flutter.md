@@ -6,7 +6,8 @@ https://dart.dev/get-dart/archive
 - 插件市场：https://dart.dev/packages
 
 ### Flutter SDK下载地址，自带了Dart SDK
-https://docs.flutter.dev/development/tools/sdk/releases
+英文官网：https://docs.flutter.dev/development/tools/sdk/releases
+中文官网：https://flutter.cn/docs/development/tools/sdk/releases
 
 ### 环境变量
 - Path
