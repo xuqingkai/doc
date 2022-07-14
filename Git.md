@@ -221,6 +221,7 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 ### 十一，Linux更新版本
 - 下载编译工具：yum -y groupinstall "Development Tools"
 - 下载依赖包：yum -y install zlib-devel perl-ExtUtils-MakeMaker asciidoc xmlto openssl-devel
+- 卸载当前版本：yum remove git -y 
 - 下载 Git 最新版本的源代码：wget https://www.kernel.org/pub/software/scm/git/git-2.37.1.tar.gz --no-check-certificate
 - 解压：tar -zxvf git-2.37.1.tar.gz
 - 进入目录配置：cd git-2.37.1
