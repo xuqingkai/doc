@@ -45,7 +45,7 @@ cert: false
 ```
 - 后台运行
 ```
-nohup ./bin/code-server
+nohup ./bin/code-server &
 ```
 - 预览地址
 `http://服务器IP或者域名:8080/`
