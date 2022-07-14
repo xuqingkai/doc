@@ -49,4 +49,6 @@ nohup ./bin/code-server &
 exit
 ```
 - 预览地址
-`http://服务器IP或者域名:8080/`
+```
+http://服务器IP或者域名:8080/
+```
