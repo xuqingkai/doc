@@ -46,6 +46,7 @@ cert: false
 - 后台运行（不要直接关闭窗口，要用exit退出）
 ```
 nohup ./bin/code-server &
+【Ctrl+C】
 exit
 ```
 - 预览地址
