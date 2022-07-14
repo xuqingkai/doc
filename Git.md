@@ -223,7 +223,7 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 - 下载依赖包：yum -y install zlib-devel perl-ExtUtils-MakeMaker asciidoc xmlto openssl-devel
 - 下载 Git 最新版本的源代码：wget https://www.kernel.org/pub/software/scm/git/git-2.37.1.tar.gz --no-check-certificate
 - 解压：tar -zxvf git-2.37.1.tar.gz
-- 进入目录配置：cd git-2.13.3
+- 进入目录配置：cd git-2.37.1
 - 执行命令：./configure --prefix=/usr/local/git
 - 编译并安装：make && make install
 - 配置全局路径1：export PATH="/usr/local/git/bin:$PATH"
