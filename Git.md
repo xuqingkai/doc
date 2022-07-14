@@ -212,7 +212,7 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 - git stash pop
 
 ### 十、忽略文件.gitignore
-- debug：忽略所有叫debug的文件和文件夹机器里面所有的文件
+- debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
 - !debug/：排除上一行中的文件夹
 - debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
 - /debug/：忽略当前目录下的debug文件夹
