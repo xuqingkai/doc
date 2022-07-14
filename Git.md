@@ -219,24 +219,16 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 - *.log：忽略所有的.log后缀文件
 
 ### 十一，Linux更新版本
-- 1. 下载编译工具
-yum -y groupinstall "Development Tools"
-- 2. 下载依赖包
-yum -y install zlib-devel perl-ExtUtils-MakeMaker asciidoc xmlto openssl-devel
-- 3. 下载 Git 最新版本的源代码
-wget https://www.kernel.org/pub/software/scm/git/git-2.13.3.tar.gz --no-check-certificate
-- 4. 解压
-tar -zxvf git-2.13.3.tar.gz
-- 5. 进入目录配置
-cd git-2.13.3
-./configure --prefix=/usr/local/git
-- 6. 安装
-make && make install
-- 7. 配置全局路径
-export PATH="/usr/local/git/bin:$PATH"
-source /etc/profile
-- 8. 查看git版本
-git --version
+- 下载编译工具：yum -y groupinstall "Development Tools"
+- 下载依赖包：yum -y install zlib-devel perl-ExtUtils-MakeMaker asciidoc xmlto openssl-devel
+- 下载 Git 最新版本的源代码：wget https://www.kernel.org/pub/software/scm/git/git-2.37.1.tar.gz --no-check-certificate
+- 解压：tar -zxvf git-2.37.1.tar.gz
+- 进入目录配置：cd git-2.13.3
+- 执行命令：./configure --prefix=/usr/local/git
+- 编译并安装：make && make install
+- 配置全局路径1：export PATH="/usr/local/git/bin:$PATH"
+- 配置全局路径1：source /etc/profile
+- 查看git版本：git --version
 
 
 ### 十一、其他
