@@ -1,0 +1,45 @@
+## 本地版本
+
+
+## Web版
+### 安装
+- https://github.com/cdr/code-server/releases
+- CentOS选择tar.gz版本，注意amd和arm架构
+- 选择合适的版本：可以直接下载下来再通过宝塔上传到服务器
+```
+wget https://github.com/cdr/code-server/releases/download/4.5.0/code-server-4.5.0-linux-amd64.tar.gz
+```
+- 解压：可直接在宝塔里解压
+```
+tar xf code-server-4.5.0-linux-amd64.tar.gz
+```
+- 进入解压后的目录：宝塔里直接点进去
+```
+cd code-server-4.5.0-linux-amd64
+```
+- 先运行根目录的code-server命令，生成配置文件，该命令只会运行一次，之后失效
+```
+./code-server
+```
+- 数据目录：/root/.local/share/code-server，root指的是当前操作系统用的账户名
+- 打开配置文件：/root/.config/code-server/config.yaml，root指的是当前操作系统用的账户名
+```
+bind-addr: 0.0.0.0:8080
+auth: password
+password: 1234567890
+cert: false
+```
+- 重新运行启动命令：注意和上面那个一次性命令的区别
+```
+./bin/code-server
+```
+- 运行结果
+```
+[2022-07-14T06:43:17.709Z] info  code-server 4.5.0 02b9d7ee856e31d9008d1ff24a175ff03b49010e
+[2022-07-14T06:43:17.710Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-07-14T06:43:17.724Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-07-14T06:43:17.724Z] info  HTTP server listening on http://0.0.0.0:8080/ 
+[2022-07-14T06:43:17.725Z] info    - Authentication is enabled
+[2022-07-14T06:43:17.725Z] info      - Using password from ~/.config/code-server/config.yaml
+[2022-07-14T06:43:17.725Z] info    - Not serving HTTPS 
+```
