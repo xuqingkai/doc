@@ -43,3 +43,9 @@ cert: false
 [2022-07-14T06:43:17.725Z] info      - Using password from ~/.config/code-server/config.yaml
 [2022-07-14T06:43:17.725Z] info    - Not serving HTTPS 
 ```
+- 后台运行
+```
+nohup ./bin/code-server
+```
+- 预览地址
+`http://服务器IP或者域名:8080/`
