@@ -5,19 +5,19 @@
 ### 安装
 - https://github.com/cdr/code-server/releases
 - CentOS选择tar.gz版本，注意amd和arm架构
-- 选择合适的版本：可以直接下载下来再通过宝塔上传到服务器
+- 选择合适的版本：也可以直接下载下来再通过宝塔上传到服务器
 ```
-wget https://github.com/cdr/code-server/releases/download/4.5.0/code-server-4.5.0-linux-amd64.tar.gz
+wget https://github.com/coder/code-server/releases/download/v4.5.0/code-server-4.5.0-linux-amd64.tar.gz
 ```
-- 解压：可直接在宝塔里解压
+- 解压：也可直接在宝塔里解压
 ```
 tar xf code-server-4.5.0-linux-amd64.tar.gz
 ```
-- 进入解压后的目录：宝塔里直接点进去
+- 进入解压后的目录：也可以宝塔里直接点进去
 ```
 cd code-server-4.5.0-linux-amd64
 ```
-- 先运行根目录的code-server命令，生成配置文件，该命令只会运行一次，之后失效
+- 先运行根目录的code-server命令，生成配置文件，该命令只会只能运行一次，之后失效
 ```
 ./code-server
 ```
