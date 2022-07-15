@@ -37,6 +37,8 @@
 - 命令分别为：
 - > git config  --global user.name 你的目标用户名；
 - > git config  --global user.email 你的目标邮箱名;
+- 允许自动保存密码
+- >git config --global credential.helper store
 
 ### 三、增加/删除文件
 - 添加指定文件到暂存区
