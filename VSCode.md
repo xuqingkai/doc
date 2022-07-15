@@ -53,3 +53,5 @@ exit
 ```
 http://服务器IP或者域名:8080/
 ```
+- 禁用自动保存，刚装完默认是自动保存模式的，保存无提示，很不方便
+- 打开setting，搜索【auto save】，一共三处都关闭：【Files: Auto Save】【Files: Auto Save Delay】【Files › Refactoring: Auto Save】
