@@ -1,5 +1,5 @@
 ### 下载地址
-- https://mirrors.tuna.tsinghua.edu.cn/Adoptium
+- https://www.oracle.com/java/technologies/downloads/archive/
 - https://repo.huaweicloud.com/java/jdk/
 - http://www.codebaoku.com/jdk/jdk-index.html
 
