@@ -172,4 +172,7 @@ Running Gradle task 'assembleDebug'...                 /
 ```
 - 1，忘记更改了项目的镜像地址，切记是两处
 - 2，设备的安卓版本是Android SDK里没有了，正在拼命下载中，，，等待即可
-### 编译库或者模块：`flutter create -t module flutter_library`
+### 编译库或者模块：
+```
+flutter create -t module flutter_library
+```
