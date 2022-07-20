@@ -174,5 +174,5 @@ Running Gradle task 'assembleDebug'...                 /
 - 2，设备的安卓版本是Android SDK里没有了，正在拼命下载中，，，等待即可
 ### 编译库或者模块：
 ```
-flutter create -t module my_flutter_lib
+flutter create -t module my_flutter_library
 ```
