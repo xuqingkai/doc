@@ -100,7 +100,7 @@ List<String> androidRequiredHttpHosts(Platform platform) {
 - Code Runner，右键运行代码工具
 - Dart，开发语言
 - Flutter，框架
-- Flutter Widget Snippets，调试用的，可不装
+- Awesome Widget Snippets，代码自动化，构建对象基本结构时用，简单几个字母，基本结构就自动输入好了
 
 ### 设定Android SDK环境变量
 - ANDROID_HOME
