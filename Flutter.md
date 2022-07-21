@@ -154,8 +154,9 @@ allprojects {
 ### 检查环境：flutter doctor
 
 #### Android licenses no accept
+- 会出现大约8个提示，都需要输入输入小写字母y
 ```
-flutter run --android-licenses
+flutter doctor --android-licenses
 ```
 #### cmdline-tools component is missing
 
