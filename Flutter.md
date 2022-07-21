@@ -43,7 +43,7 @@ D:\Program Files\Java\jdk1.8.0_202
 %JAVA_HOME%\jre\bin
 ```
 
-### 依赖配置文件：pubspec.yaml
+### 配置依赖文件（pubspec.yaml）格式及注意事项：
 ```
 name: test
 description: none
@@ -89,8 +89,8 @@ class FlutterPlugin implements Plugin<Project> {
 List<String> androidRequiredHttpHosts(Platform platform) {
   return <String>[
     // If kEnvCloudUrl is set, it will be used as the maven host
-    //https://maven.google.com/
     if (!platform.environment.containsKey(kEnvCloudUrl))
+      //'https://maven.google.com/',
       'https://dl.google.com/dl/android/maven2/',
   ];
 }
