@@ -43,22 +43,6 @@ D:\Program Files\Java\jdk1.8.0_202
 %JAVA_HOME%\jre\bin
 ```
 
-### 配置依赖文件（pubspec.yaml）格式及注意事项：
-```
-name: test
-description: none
-version: 1.0.0
-environment:
-  sdk: '^2.17.5'
-dependencies: 
-  http: ^0.13.0
-```
-- 冒号后面必须紧跟一个空格
-
-### 相关命令
-- 初始化依赖：pub get或者flutter pub get
-
-
 ### 更改SDK镜像地址
 - ./Flutter_SDK/packages/flutter_tools/gradle/flutter.gradle
 ```
@@ -127,7 +111,24 @@ C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 
 
 ### 创建项目命令
+```
 flutter create myFirstFlutterProject
+```
+
+### 依赖文件（pubspec.yaml）格式及注意事项：
+```
+name: test
+description: none
+version: 1.0.0
+environment:
+  sdk: '^2.17.5'
+dependencies: 
+  http: ^0.13.0
+```
+- 冒号后面必须紧跟一个空格
+
+### 初始化依赖
+- 命令：pub get或者flutter pub get
 
 ### 更改项目的镜像地址
 - ./android/build.gradle
