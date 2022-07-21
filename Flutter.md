@@ -177,3 +177,24 @@ Running Gradle task 'assembleDebug'...                 /
 ```
 flutter create -t module my_flutter_library
 ```
+
+### VSCode 编辑dart文件时，中间有条白色竖线，这是为了给右侧流出模拟器空间的，禁用方式：
+- 打开文件：`C:\Users\Administrator\AppData\Roaming\Code\User\settings.json`
+- 修改[dart]，editor.rulers，为空数组即可，如下：
+```
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
+}
+```
+
