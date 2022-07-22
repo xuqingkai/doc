@@ -127,9 +127,6 @@ dependencies:
 ```
 - 冒号后面必须紧跟一个空格
 
-### 初始化依赖
-- 命令：pub get或者flutter pub get
-
 ### 更改项目的镜像地址
 - ./android/build.gradle
 ```
@@ -151,6 +148,12 @@ allprojects {
     }
 }
 ```
+
+### 初始化依赖
+- `pub get``flutter pub get`
+### 更新flutter
+- `flutter upgrade`
+
 ### 检查环境：flutter doctor
 
 #### Android licenses no accept
