@@ -150,7 +150,7 @@ allprojects {
 ```
 
 ### 初始化依赖
-- `pub get``flutter pub get`
+- `pub get` 或者 `flutter pub get`
 ### 更新flutter
 - `flutter upgrade`
 
