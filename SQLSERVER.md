@@ -53,4 +53,70 @@ Enterprise: JD8Y6-HQG69-P9H84-XDTPG-34MBB
 - 用key升级成功后即可启动MSSQLSERVER服务。如果启动SQL SERVER管理器依然报告过期错误，则将注册表HKEY_LOCAL_MACHINE\SOFTWARE\\Microsoft\Microsoft SQL Server\100\ConfigurationState，将其中CommonFiles的键值改为3。
 - 然后再重复以上四个步骤，进行升级就OK了。
 
+### 附加数据库
+- 找到要迁移的数据，
+- 右键单击，任务，脱机
+- 
+- 复制数据库文件（mdf后缀）到新服务器
+- 在新服务器上打开数据库管理客户端
+- 在“数据库”三个字上，右键点击，附加
 
+- 在“要附加的数据库”选项卡，
+- 检查MDF文件的位置是否正确，如果不正确，重新指定下
+- 双击“附加为”更改为你要想要的新数据库名
+
+- 在“XXX数据库详细信息”选项卡
+- 检查MDF文件的位置是否正确，如果不正确，重新指定下
+- 选中“LDF文件”一行，删除，
+
+- 确定，即可迁移完毕
+- 如果提示附加失败，一般是原数据没有在完全停止的情况下就复制过来了
+
+### 还原数据库
+- 打开数据库管理软件
+- 在“数据库”三个字上点右键，选择“还原数据库”
+- 在打开的对话框里，
+- 【常规】选项卡，目标数据库输入新的数据库名称
+- 【文件】选项卡，选中“将所有文件重新定位到文件夹”，
+- 将数据库文件夹和日志文件文件夹设定为新的保存路径
+- 同时，在下面文件列表里，修改“还原为”这一列的值为新的数据库文件名和日志文件名
+- 【选项】选项卡，根据实际需要，选中“覆盖现有数据库”
+- 确定，即可还原为一个新的数据库
+- 为了更完美，右键点击新数据库，选择属性，选择【文件】选项卡，
+- 在文件列表里，把文件的“逻辑名称”修改为对应的名称
+
+### 设计视图增加默认值和说明列
+- 1，打开注册表
+```
+HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\11.0\DataProject”
+```
+- 注意这里的11.0表示安装的SQL Server Management Studio版本号。
+- SQL Server 2008 R2则对应10.0，
+- SQL Server 2012/2014对应11.0
+- SQL Server 2019，路径变为：`Computer\HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\18.0_IsoShell\DataProject`
+
+- 2，找到 SSVPropViewColumnsSQL70 和SSVPropViewColumnsSQL80。
+- 先关闭sqlserver管理工具然后将默认值“1,2,6;”改为“1,2,6,7,17;”
+- 再次打开管理器，即可
+
+
+- 各数字代表的意思如下：
+```
+1:Column Name
+2:Data Type
+3:Length
+4:Precision
+5:Scale
+6:Allow Nulls
+7:Default Value
+8:Identity
+9:Identity Seed
+10:Identity Increment
+11:Row GUID
+12:Nullable
+13:Condensed Type
+14:Not for Replication
+15:Formula
+16:Collation
+17:Description
+```
