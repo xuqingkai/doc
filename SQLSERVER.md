@@ -120,3 +120,13 @@ HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\11.0\DataProje
 16:Collation
 17:Description
 ```
+
+### 移动数据库到别的服务器
+- 1，建立同名空数据库
+- 2，还原数据库
+- 3，建立同名登录
+- 4，执行：use sq_galadou exec sp_change_users_login 'update_one','sq_galadou','sq_galadou'
+
+### 查询结果，复制出来无回车符效果
+- 工具/选项/查询结果/SQL Server/以网格显示结果/复制或保存时保留CR/LF(E)，勾选后，重启SMSS即可
+
