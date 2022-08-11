@@ -15,7 +15,7 @@ android {
         applicationId "com.xuqingkai.myandroid"
         minSdk 23
         targetSdk 28
-		multiDexEnabled true
+	multiDexEnabled true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
