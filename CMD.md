@@ -12,3 +12,12 @@ C:\Windows\System32\curl.exe -s -f --output ".\curl_%date:~0,4%%date:~5,2%%date:
 choice /t 5 /d y /n >nul
 goto next
 ```
+
+### 列出所有文件，包含子目录的
+```
+dir /s /b >dir.txt
+```
+### 列出所有文件，包含子目录的
+```
+tree /f >tree.txt
+```
