@@ -13,9 +13,13 @@ choice /t 5 /d y /n >nul
 goto next
 ```
 
-### 列出所有文件，包含子目录的
+### 列出当前目录所有
 ```
-dir /s /b >dir.txt
+dir *.* /b >dir.txt
+```
+### 列出当前目录及后台目录的所有文件
+```
+dir /s /b >files.txt
 ```
 ### 列出所有文件，包含子目录的
 ```
