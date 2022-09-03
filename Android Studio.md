@@ -9,3 +9,6 @@
 - 输入新的名称，点击Refactor按钮，在左下角的Refactoring Preview窗口中点击Do Refactor按钮，确认同步重命名其他模块的引用
 - 打开APP项目的build.gradle文件，找到android节点下的defaultConfig节点下的applicationId，调整为完整的新包名，然后点击该窗口顶部的蓝色按钮Sync Now
 - 完成。
+
+### 去掉白色竖线
+- setting，Editor，Code Style，（General），Hard wrap at，值从100改为0
