@@ -1,0 +1,27 @@
+## 下载
+<https://getcomposer.org/download/>
+
+### 切换镜像源
+- 全局：`composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/`
+- 项目：`composer config repo.packagist composer https://mirrors.aliyun.com/composer/`
+
+### 取消配置
+- 全局：composer config -g --unset repos.packagist
+- 项目：composer config --unset repos.packagist
+
+### 更新到最新版本
+- composer self-update
+
+## 使用
+### 初始化
+- composer install
+- composer update
+- composer update
+
+### 版本约束
+- >=1.0
+- >=1.0 <2.0
+- >=1.0 <1.1 || >=1.2
+- 1.0.* 相当于>=1.0 <1.1
+- ^1.2.3 相当于>=1.2.3 <2.0.0
+- 如果你想指定版本只要稳定版本，你可以在版本后面添加后缀-stable。
