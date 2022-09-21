@@ -13,8 +13,14 @@
 ### 去掉白色竖线
 - setting，Editor，Code Style，（General），Hard wrap at，值从100改为0
 
-### Gradle版本与插件版本必须对应
-| Gradle Plugin Version | Gradle Version | JDK Version
+### Android Gradle Plugin版本与Gradle版本、JDK版本对应关系，必须一一对应
+- 打开项目，先确定Gradle版本，再确定AGP与JDK版本
+- 查看Gradle版本1：gradle\wrapper\gradle-wrapper.propertie
+- 查看Gradle版本2：IDE顶部菜单File，Project Structure，Project，Gradle Version
+- AGP版本设置：IDE顶部菜单File，Project Structure，Project，Android Gradle Plugin Version
+- JDK版本设置：IDE顶部菜单File，Project Structure，SDK Location，最后一行的蓝色链接Gradle Settings，最后一行Gradle JDK
+
+|  AGP Version | Gradle Version | JDK Version
 |  ----  | ----  | ----  |
 | 1.0.0 - 1.1.3 | 2.2.1 - 2.3 | 1.8/8 |
 | 1.2.0 - 1.3.1 | 2.2.1 - 2.9 | 1.8/8 |
