@@ -3,7 +3,7 @@
 
 ## Web版
 ### 安装
-- https://github.com/cdr/code-server/releases
+- https://github.com/coder/code-server/releases
 - CentOS选择tar.gz版本，注意amd和arm架构
 - 选择合适的版本：也可以直接下载下来再通过宝塔上传到服务器
 ```
