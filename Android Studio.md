@@ -1,7 +1,7 @@
 ### 提示java版本不支持gradle版本
 
 - The type java.lang.Object cannot be resolved It is indirectly referenced
-项目（APP）右键，Open Module Settings，SDK Location，Gradle Settings，Gradle Projects，Gradle JDK，设置为1.8
+- 项目（APP）右键，Open Module Settings，SDK Location，Gradle Settings，Gradle Projects，Gradle JDK，设置为1.8
 
 ### 修改包名
 - 确认项目目录显示方案为Android，选中APP项目右侧的小齿轮的按钮，将下拉菜单中的Compact Middle Packages取消选中，防止包名各段都在一行显示。
@@ -12,6 +12,9 @@
 
 ### 去掉白色竖线
 - setting，Editor，Code Style，（General），Hard wrap at，值从100改为0
+
+### 报错：NDK at D:\android\sdk\ndk-bundle did not have a source.properties file
+- IDE顶部菜单File，Project Structure，SDK Location，倒数第一行的蓝色链接Download Android NDK
 
 ### Android Gradle Plugin版本与Gradle版本、JDK版本对应关系，必须一一对应
 - 打开项目，先确定Gradle版本，再确定AGP与JDK版本
