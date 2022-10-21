@@ -1,3 +1,4 @@
+## 解除宝塔各种限制
 ### 1.安装原版脚本
 - 首先必不可少的是原版的脚本 ：`wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh`
 
