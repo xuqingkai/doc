@@ -1,11 +1,8 @@
 ### 1.安装原版脚本
-首先必不可少的是原版的脚本 
-```
-wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh
-```
+- 首先必不可少的是原版的脚本 ：`wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh`
 
 ### 2.去除官网登陆绑定
-重命名文件：/www/server/panel/data/bind.pl
+- 重命名文件：/www/server/panel/data/bind.pl
 
 ### 3.破解插件
 - 打开文件：/www/server/panel/data/plugin.json
