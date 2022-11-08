@@ -51,6 +51,8 @@ dependencies {
 }
 ```
 - 安卓适配
-`https://github.com/getActivity/AndroidVersionAdapter`
+
+
+<https://github.com/getActivity/AndroidVersionAdapter>
 
 
