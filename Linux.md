@@ -46,6 +46,8 @@ service sshd restart
 ### 端口
 查看3306端口占用情况：netstat -untlp | grep 3306  
 
+释放端口：kill -9 进程pid号
+
 ### 卸载jdk包
 查询：rpm -qa|grep jdk  
 显示：jdk-1.7.0_71-fcs.x86_64  
