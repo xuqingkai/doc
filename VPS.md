@@ -17,3 +17,6 @@
 
 ### virmach：https://www.virmach.com/
 - 低价LINUX，1.25美元/月： https://billing.virmach.com/index.php?rp=/store/cloud-computing-linux-vps-kvm
+
+### 爱微云
+https://cloud.aiwnet.cn/
