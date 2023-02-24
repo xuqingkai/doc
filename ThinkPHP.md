@@ -15,3 +15,7 @@ composer update topthink/framework
 ```
 composer require topthink/think-view
 ```
+- 控制器不存在:app\controller\Index
+```
+composer require topthink/think-multi-app
+```
