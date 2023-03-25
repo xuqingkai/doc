@@ -20,3 +20,9 @@
 
 ### 爱微云
 https://cloud.aiwnet.cn/
+
+### moonvm免费换IP
+https://www.moonvm.com/
+
+### 八艾云
+https://www.8a.hk/
