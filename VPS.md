@@ -18,7 +18,7 @@
 ### virmach：https://www.virmach.com/
 - 低价LINUX，1.25美元/月： https://billing.virmach.com/index.php?rp=/store/cloud-computing-linux-vps-kvm
 
-### 爱微云
+### 爱微云 ,月付0元免费空间
 https://cloud.aiwnet.cn/
 
 ### moonvm免费换IP
