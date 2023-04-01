@@ -24,8 +24,8 @@ https://cloud.aiwnet.cn/
 ### moonvm免费换IP
 https://www.moonvm.com/
 
-### 八艾云
+### 八艾云，1核1G10M20G774元3年
 https://www.8a.hk/
 
-### 美国1核1g5M50G307元每年
+### 美国1核1G5M50G307元1年
 https://www.htstack.com/activity/2023.shtml
