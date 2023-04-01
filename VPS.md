@@ -17,8 +17,10 @@
 - 1核CPU，512M内存，15G硬盘，1T/月流量，$2.5/月
 - https://billing.virmach.com/index.php?rp=/store/cloud-computing-linux-vps-kvm
 
-### Vultr
+### Vultr：
 - https://www.vultr.com/
+- 2.5美元的只有IPV6，3.5以上才是IPV4，可免费换IP（先新建，后销毁）
+- 可按小时计费
 
 ### 爱微云，月付0元免费虚拟PHP空间,无限续费
 - https://cloud.aiwnet.cn/
