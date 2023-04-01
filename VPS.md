@@ -18,7 +18,7 @@
 ### virmach：https://www.virmach.com/
 - 低价LINUX，1.25美元/月： https://billing.virmach.com/index.php?rp=/store/cloud-computing-linux-vps-kvm
 
-### 爱微云 ,月付0元免费空间
+### 爱微云 ,月付0元免费虚拟PHP空间,无限续费
 https://cloud.aiwnet.cn/
 
 ### moonvm免费换IP
@@ -26,3 +26,6 @@ https://www.moonvm.com/
 
 ### 八艾云
 https://www.8a.hk/
+
+### 美国1核1g5M50G307元每年
+https://www.htstack.com/activity/2023.shtml
