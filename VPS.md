@@ -32,4 +32,4 @@ https://www.8a.hk/
 
 ### 衡天云
 - 美国，1核CPU，1G内存，5M带宽，50G系统盘，307元1年
-https://www.htstack.com/activity/2023.shtml
+- https://www.htstack.com/activity/2023.shtml
