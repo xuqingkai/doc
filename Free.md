@@ -9,7 +9,9 @@ http://www.coms.hk/
 ### 免费PHP空间
 https://www.infinityfree.net/
 
-空间不限，流量不限，域名不限，但是不能改php版本，不能装tp
+https://profreehost.com/
+
+以上二者其实是一家，分销网站而已，空间不限，流量不限，域名不限，但是不能改php版本，不能装tp
 
 https://cloud.aiwnet.cn/
 
