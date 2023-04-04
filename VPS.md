@@ -26,7 +26,7 @@
 - https://cloud.aiwnet.cn/
 
 - https://cloud.aiwnet.cn/cart?action=configureproduct&pid=79
-- 美国，1核CPU，1G内存，100M带宽，50G硬盘，16元/月(192元/年)
+- 美国，1核CPU，2G内存，100M带宽，50G硬盘，16元/月(192元/年)
 
 ### moonvm，免费换IP
 - https://www.moonvm.com/
