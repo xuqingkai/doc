@@ -24,14 +24,15 @@
 
 ### 爱微云，月付0元免费虚拟PHP空间,无限续费
 - https://cloud.aiwnet.cn/
+- 美国，PHP空间，100M空间，20M数据库，无限流量
 
 ### moonvm，免费换IP
 - https://www.moonvm.com/
 
 ### 八艾云
 https://www.8a.hk/
-- 香港，1核CPU，1G内存，10M带宽，20G系统盘，774元3年
+- 香港，1核CPU，1G内存，10M带宽，20G系统盘，774元3年，，续费恢复原价
 
 ### 衡天云
-- 美国，1核CPU，1G内存，5M带宽，50G系统盘，307元1年
+- 美国，1核CPU，1G内存，5M带宽，50G系统盘，307元1年，续费同价
 - https://www.htstack.com/activity/2023.shtml
