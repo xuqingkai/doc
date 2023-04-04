@@ -15,6 +15,8 @@ https://profreehost.com/
 
 https://cloud.aiwnet.cn/
 
+美国，PHP空间，100M空间，20M数据库，无限流量
+
 ### 免费ASP.NET空间
 https://freeasphosting.net/
 
