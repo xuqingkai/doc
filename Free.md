@@ -1,8 +1,6 @@
 ### 免费域名
 https://nic.eu.org/
 
-http://www.coms.hk/
-
 （需要2024-4-1续期）
 ----
 
