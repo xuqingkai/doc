@@ -15,3 +15,6 @@ https://cloud.aiwnet.cn/
 
 ### 免费ASP.NET空间
 https://freeasphosting.net/
+
+### 香港6港元/年 电话卡
+https://jiemahao.com/clubsim-card/
