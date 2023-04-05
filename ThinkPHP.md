@@ -1,3 +1,4 @@
+### 请务必打开fileinfo扩展，否则composer不好用
 ### 安装
 - 【LINUX】
 ```
