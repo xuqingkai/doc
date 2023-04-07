@@ -21,9 +21,13 @@ https://freeasphosting.net/
 
 ### 解析到127.0.0.1的域名
 *.localtest.me
+
 wifi.aliyun.com
+
 safe.taobao.com
+
 114.taobao.com
+
 ecd.tencent.com
 
 
