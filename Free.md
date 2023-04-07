@@ -3,6 +3,10 @@ https://nic.eu.org/
 
 （需要2024-4-1续期）
 
+https://24h.name/
+
+24小时临时域名，邮箱接收验证码
+
 
 ### 免费PHP空间
 https://www.infinityfree.net/
