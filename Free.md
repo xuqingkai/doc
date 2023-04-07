@@ -5,7 +5,7 @@ https://nic.eu.org/
 
 https://24h.name/
 
-24小时临时域名，邮箱接收验证码
+24小时临时域名，邮箱接收验证码，配合24小时临时邮箱：http://24mail.chacuo.net/
 
 
 ### 免费PHP空间
