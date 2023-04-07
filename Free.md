@@ -9,9 +9,11 @@ https://24h.name/
 
 ### 免费临时邮箱
 
-http://24mail.chacuo.net/
+24小时：http://24mail.chacuo.net/
 
-https://mail.tm/zh/
+7天：https://mail.tm/zh/
+
+免费Gmail：https://www.emailnator.com/
 
 ### 免费PHP空间
 https://www.infinityfree.net/
