@@ -24,6 +24,7 @@
 - https://www.vultr.com/
 - 2.5美元的只有IPV6，3.5以上才是IPV4，可免费换IP（先新建，后销毁）
 - 可按小时计费
+- free计划：1核CPU，0.5G内存，10GB硬盘，2TB流量
 
 ### 爱微云，月付0元免费虚拟PHP空间,无限续费
 - https://cloud.aiwnet.cn/
