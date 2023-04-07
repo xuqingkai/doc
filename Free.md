@@ -2,7 +2,7 @@
 https://nic.eu.org/
 
 （需要2024-4-1续期）
-----
+
 
 ### 免费PHP空间
 https://www.infinityfree.net/
@@ -17,4 +17,13 @@ https://cloud.aiwnet.cn/
 
 ### 免费ASP.NET空间
 https://freeasphosting.net/
+
+
+### 解析到127.0.0.1的域名
+*.localtest.me
+wifi.aliyun.com
+safe.taobao.com
+114.taobao.com
+ecd.tencent.com
+
 
