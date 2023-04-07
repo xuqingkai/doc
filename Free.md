@@ -41,4 +41,21 @@ safe.taobao.com
 
 ecd.tencent.com
 
+### 免费DNS
+
+CloudFlare：1.1.1.1/1.0.0.1
+
+Google：8.8.8.8/8.8.6.6
+
+IBM.Quad9：9.9.9.9/
+
+Freenom：80.80.80.80/80.80.81.81
+
+taiwan：101.101.101.101
+
+114：114.114.114.114/114.114.115.115
+
+Microsoft：4.2.2.1
+
+CNNIC：1.2.4.8
 
