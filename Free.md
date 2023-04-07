@@ -41,7 +41,7 @@ safe.taobao.com
 
 ecd.tencent.com
 
-### 免费DNS
+### 免费公共DNS
 
 CloudFlare：1.1.1.1/1.0.0.1
 
