@@ -68,4 +68,10 @@ make && make install
 extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/fileinfo.so
 extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/zip.so
 ```
+### WIN10无法安装PHPManagerForIIS的解决办法
+注册表找：KEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters
+
+右侧的 MajorVersion 是DWORD值，它的值十进制是10，把它改成9
+
+安装完毕后，务必修改回来
 
