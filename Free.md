@@ -31,7 +31,13 @@ https://freeasphosting.net/
 
 
 ### 解析到127.0.0.1的域名
+*.lvh.me
+
 *.localtest.me
+
+192.168.1.1.nip.io
+
+116.140.154.101.nip.io/
 
 wifi.aliyun.com
 
