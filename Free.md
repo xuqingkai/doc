@@ -31,6 +31,10 @@ https://freeasphosting.net/
 
 
 ### 解析到127.0.0.1的域名
+*.fbi.com
+
+*.local.gd
+
 *.lvh.me
 
 *.localtest.me
