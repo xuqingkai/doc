@@ -10,8 +10,8 @@
 - 项目：composer config --unset repos.packagist
 
 ### 更新到最新版本
-- composer self-update
-
+- composer self-update 2
+- 2.4.2版本之后，管理员用户无法运行命令，需要执行：`export COMPOSER_ALLOW_SUPERUSER=1`
 ## 使用
 ### 初始化
 - composer install
