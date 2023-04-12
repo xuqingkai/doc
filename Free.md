@@ -37,11 +37,11 @@ https://freeasphosting.net/
 
 *.lvh.me
 
-*.localtest.me
+*.localtest.me  https://readme.localtest.me 
 
 192.168.1.1.nip.io
 
-116.140.154.101.nip.io/
+116.140.154.101.nip.io/   https://nip.io/
 
 wifi.aliyun.com
 
