@@ -43,6 +43,8 @@ https://freeasphosting.net/
 
 116.140.154.101.nip.io/   https://nip.io/
 
+192.168.1.1.sslip.io
+
 wifi.aliyun.com
 
 safe.taobao.com
