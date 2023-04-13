@@ -6,6 +6,30 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 - master-x.x.x，软件的正式版本发布后的分支或者发现bug的修复线，有的公司修复完毕后会删除该类分支
 - develop-x.x.x 平时开发时，每个小组或者个人需要单拉分支，在自己的分支线上开发，完毕后再去合并。
 
+
+## 技巧
+### 忽略文件.gitignore
+- debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
+- !debug/：排除上一行中的文件夹
+- debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
+- /debug/：忽略当前目录下的debug文件夹
+- *.log：忽略所有的.log后缀文件
+
+### Linux更新版本
+- 安装 centos7 WANDisco 仓库：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
+- 安装 Git：`yum -y install git`
+- 查看git版本：git --version
+
+### 正确显示带中文的目录、文件
+- git config --global core.quotepath false
+
+
+### 其他
+- 生成一个可供发布的压缩包
+- git archive
+
+
+
 ## Git命令大全
 - Workspace：工作区
 - Index / Stage：暂存区
@@ -214,23 +238,3 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 - 暂时将未提交的变化移除，稍后再移入
 - git stash
 - git stash pop
-
-### 忽略文件.gitignore
-- debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
-- !debug/：排除上一行中的文件夹
-- debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
-- /debug/：忽略当前目录下的debug文件夹
-- *.log：忽略所有的.log后缀文件
-
-### Linux更新版本
-- 安装 centos7 WANDisco 仓库：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
-- 安装 Git：`yum -y install git`
-- 查看git版本：git --version
-
-### 正确显示带中文的目录、文件
-- git config --global core.quotepath false
-
-
-### 其他
-- 生成一个可供发布的压缩包
-- git archive
