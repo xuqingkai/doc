@@ -215,19 +215,22 @@ git checkout -b appoint_box（别名） origin/feature/20181128_1491627_appoint_
 - git stash
 - git stash pop
 
-### 十、忽略文件.gitignore
+### 忽略文件.gitignore
 - debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
 - !debug/：排除上一行中的文件夹
 - debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
 - /debug/：忽略当前目录下的debug文件夹
 - *.log：忽略所有的.log后缀文件
 
-### 十一，Linux更新版本
+### Linux更新版本
 - 安装 centos7 WANDisco 仓库：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
 - 安装 Git：`yum -y install git`
 - 查看git版本：git --version
 
+### 正确显示带中文的目录、文件
+- git config --global core.quotepath false
 
-### 十一、其他
+
+### 其他
 - 生成一个可供发布的压缩包
 - git archive
