@@ -1,19 +1,22 @@
 # GitHub功能测试专用库
 https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6db40aae9e200468c5fbc
-## 使用规范
+## 【使用规范】
 - master分支一般为主分支，默认分支，是作为软件最新的版本发布线。
 - develop分支是主力开发分支，各小组分支开发完毕并检验后合并到此，测试人员随时可以从此拉取代码打包测试。
 - master-x.x.x，软件的正式版本发布后的分支或者发现bug的修复线，有的公司修复完毕后会删除该类分支
 - develop-x.x.x 平时开发时，每个小组或者个人需要单拉分支，在自己的分支线上开发，完毕后再去合并。
 
 
-## 技巧
-### 忽略文件.gitignore
-- debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
-- !debug/：排除上一行中的文件夹
-- debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
-- /debug/：忽略当前目录下的debug文件夹
-- *.log：忽略所有的.log后缀文件
+## 【使用技巧】
+
+### Linux初始化配置
+- 1，建议先下载最新版本：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
+- 2，安装：`yum -y install git`
+- 3，设置支持中文编码：`git config --global core.quotepath false`
+- 4，设置全局账号：`git config --global user.name xuqingkai`
+- 5, 设置全局邮箱：`git config --global user.email xuqingkai@git.com`
+- 6，克隆仓库：`git clone https://github.com/xuqingkai/test.git test`
+- 7，提示输入用户名和密码，密码也就是token，需要从https://github.com/settings/tokens获取，经典模式即可
 
 ### Linux更新版本
 - 安装 centos7 WANDisco 仓库：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
@@ -23,6 +26,12 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 ### 正确显示带中文的目录、文件
 - git config --global core.quotepath false
 
+### 忽略文件.gitignore
+- debug：忽略所有叫debug的文件（无扩展名）和文件夹及其里面所有的文件
+- !debug/：排除上一行中的文件夹
+- debug/：忽略所有目录下的debug文件夹及里面所有的文件和文件夹
+- /debug/：忽略当前目录下的debug文件夹
+- *.log：忽略所有的.log后缀文件
 
 ### 其他
 - 生成一个可供发布的压缩包
@@ -30,7 +39,7 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 
 
 
-## Git命令大全
+## 【Git命令大全】
 - Workspace：工作区
 - Index / Stage：暂存区
 - Repository：仓库区（或本地仓库）
