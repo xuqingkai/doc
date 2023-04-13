@@ -19,7 +19,7 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 - 7，提示输入用户名和密码，密码也就是token，需要从https://github.com/settings/tokens获取，经典模式即可
 - 8，务必设置好.gitignore文件，防止提交垃圾文件
 - 8，缓存所有文件：`git add`
-- 10，提交：`git commit `
+- 10，提交：`git commit -m 增加文件 `
 - 11，推送：`git push`
 
 ### Linux更新版本
