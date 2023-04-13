@@ -14,9 +14,13 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 - 2，安装：`yum -y install git`
 - 3，设置支持中文编码：`git config --global core.quotepath false`
 - 4，设置全局账号：`git config --global user.name xuqingkai`
-- 5, 设置全局邮箱：`git config --global user.email xuqingkai@git.com`
+- 5，设置全局邮箱：`git config --global user.email xuqingkai@git.com`
 - 6，克隆仓库：`git clone https://github.com/xuqingkai/test.git test`
 - 7，提示输入用户名和密码，密码也就是token，需要从https://github.com/settings/tokens获取，经典模式即可
+- 8，务必设置好.gitignore文件，防止提交垃圾文件
+- 8，缓存所有文件：`git add`
+- 10，提交：`git commit `
+- 11，推送：`git push`
 
 ### Linux更新版本
 - 安装 centos7 WANDisco 仓库：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
