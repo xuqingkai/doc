@@ -17,7 +17,7 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 - 5，设置全局邮箱：`git config --global user.email xuqingkai@git.com`
 - 6，克隆仓库：`git clone https://github.com/xuqingkai/test.git test`
 - 7，提示输入用户名和密码，密码也就是token，需要从https://github.com/settings/tokens获取，经典模式即可
-- 8，无法使用云IDE的Git，是可能需要设置安全目录：git config --global --add safe.directory /www/wwwroot
+- 8，无法使用云IDE的Git，是可能需要设置安全目录：`git config --global --add safe.directory /www/wwwroot`
 - 9，务必设置好.gitignore文件，防止提交垃圾文件
 - 10，缓存当前目录下所有文件：`git add .`
 - 11，提交：`git commit -m 本次提交描述文字 `
