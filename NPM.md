@@ -10,9 +10,9 @@ npm config set cache "D:\Program Files\nodejs\npm-cache"
 
 3. npm install：会根据项目中的 package.json 文件自动给下载项目中所需的全部依赖
 
-4. npm insall 包含 --sava-dev (npm install 包含 -D) : 安装的包只用于开发环境，不用于生产环境，会出现在 package.json 文件中的 dependenceies 属性中
+4. npm insall 包名 --save-dev (npm install 包名 -D) : 安装的包只用于开发环境，不用于生产环境，会出现在 package.json 文件中的 dependenceies 属性中
 
-5. npm insall 包含 --sava (npm install 包含 -S) :  安装的包需要发布到生产环境的，会出现在 package.json 文件中的 dependenceies 属性中
+5. npm insall 包名 --save (npm install 包名 -S) :  安装的包需要发布到生产环境的，会出现在 package.json 文件中的 dependenceies 属性中
 
 6. npm list：查看当前目录下已安装的node包
 
