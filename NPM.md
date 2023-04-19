@@ -6,20 +6,24 @@ npm -v：
 #### 初始化项目：一步步生成项目配置文件package.json，
 npm init
 
-#### 下载依赖：根据package.json下载所需依赖到./node_modules
+#### 初始化依赖：下载项目所需依赖到./node_modules
 npm install
 
-#### 安装依赖到项目目录，无任何环境清单备案，即后续项目初始依赖时就没了
-- npm insall 包名
+#### 初始化生产环境依赖：只下载生产环境所需依赖到./node_modules
+npm install –production
 
-#### 安装依赖到项目目录，并备案到到生产环境依赖清单，测试更不用说了
-- npm insall 包名 --save 或者 npm insall 包名 -S
+#### 安装依赖到当前项目，无任何环境清单备案，即后续项目初始化依赖时不下载
+npm insall 包名
 
-#### 安装依赖到项目目录，并只备案到开发环境依赖清单，生产环境无
-- npm insall 包名 --save-dev 或者 npm insall 包名 -D
+#### 安装依赖到全局目录，无任何环境清单备案，即后续项目初始化依赖时不下载
+npm insall 包名 --g
 
-#### 安装依赖全局目录
-- npm insall 包名 --g
+#### 安装依赖到当前项目，并备案到到生产环境依赖清单，测试更不用说了
+npm insall 包名 --save 或者 npm insall 包名 -S
+
+#### 安装依赖到当前项目，并只备案到开发环境依赖清单，生产环境无
+npm insall 包名 --save-dev 或者 npm insall 包名 -D
+
 
 #### 更新指定包
 npm update 包名
