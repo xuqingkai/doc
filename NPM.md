@@ -1,16 +1,31 @@
-### 更改全局目录，记得先创建好npm_global目录
+## 常用
+
+- 更改全局目录，记得先创建好npm_global目录
 npm config set prefix "D:\Program Files\nodejs\npm_global"
 
-### 更改缓存目录，记得先创建好npm-cache目录
+- 更改缓存目录，记得先创建好npm-cache目录
 npm config set cache "D:\Program Files\nodejs\npm-cache"
 
-1. npm -v：查看 npm 版本
+- 本地运行
+npm run dev
 
-2. npm init：初始化后会出现一个 Package.json 配置文件，可以在后面加上 -y，快速跳到问答界面
+- 生成测试包
+npm run build:stage
+
+- 生成生产包
+npm run build:prod
+
+## 其他
+
+- 查看 npm 版本
+npm -v：
+
+- 初始化：一步步生成项目配置文件package.json，
+npm init
 
 3. npm install：会根据项目中的 package.json 文件自动给下载项目中所需的全部依赖
 
-4. npm insall 包名 --save-dev (npm install 包名 -D) : 安装的包只用于开发环境，不用于生产环境，会出现在 package.json 文件中的 dependenceies 属性中
+4. npm insall 包名 --save-dev (npm install 包名 -D) : 安装的包只用于开发环境，不用于生产环境，会出现在 package.json 文件中的 devDependenceies 属性中
 
 5. npm insall 包名 --save (npm install 包名 -S) :  安装的包需要发布到生产环境的，会出现在 package.json 文件中的 dependenceies 属性中
 
@@ -20,7 +35,7 @@ npm config set cache "D:\Program Files\nodejs\npm-cache"
 
 8. npm --help : 查看npm帮助命令
 
-9. npm update包名 : 更新指定包
+9. npm update 包名 : 更新指定包
 
 10. npm uninstall 包名 : 卸载指定包
 
