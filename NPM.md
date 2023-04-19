@@ -37,14 +37,17 @@ npm config set prefix "D:\Program Files\nodejs\npm_global"
 #### 更改缓存目录，记得先创建好npm-cache目录
 npm config set cache "D:\Program Files\nodejs\npm-cache"
 
-#### 本地运行
-npm run dev
+#### 运行/打包：子命令是什么具体看package.json里scripts节点名
+npm run 子命令
 
-#### 生成测试包
-npm run build:stage
+##### 本地运行
+npm run dev 或者 npm run serve
 
-#### 生成生产包
-npm run build:prod
+##### 生成测试包
+npm run build:stage 或者 npm run test
+
+##### 生成生产包
+npm run build 或者 npm run build:prod
 
 
 
