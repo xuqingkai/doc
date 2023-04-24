@@ -87,3 +87,9 @@ npm root
 
 #### 查看全局的包的安装路径
 npm root -g
+
+
+## 常见问题
+
+#### 执行命令报错：Use `--location=global` instead
+将安装目录下的npm.cmdn中的"prefix -g"修改为"prefix --location=global"
