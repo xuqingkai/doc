@@ -52,7 +52,9 @@ dependencies {
 ```
 - 安卓适配
 
-
-<https://github.com/getActivity/AndroidVersionAdapter>
-
-
+### 将APP改为启动器
+在AndroidManifest.xml文件中，找到默认activity行，加入以下两行
+```
+<category android:name="android.intent.category.HOME"/>  
+<category android:name="android.intent.category.DEFAULT"/>
+```
