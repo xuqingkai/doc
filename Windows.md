@@ -23,3 +23,10 @@ Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.In
 
 ### WIN2012 显示桌面
 rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
+
+### 更改默认安装目录
+开始，运行，regedit
+
+[HKEY＿LOCAL＿MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]  → ProgramFilesDir
+
+双击输入：ProgramFiles
