@@ -60,6 +60,7 @@ dependencies {
 ```
 
 ### 蓝牙startDiscovery()始终返回false
+- 原因：安卓6之后蓝牙必须开启定位
 - 首先确认APP是否注册了位置权限：ACCESS_COARSE_LOCATION和ACCESS_FINE_LOCATION
 - 判断设备是否开启了GPS位置开关
 - 判断当前APP是否被授予了位置权限。
