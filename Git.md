@@ -28,6 +28,9 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 - 安装 Git：`yum -y install git`
 - 查看git版本：git --version
 
+### 关闭SSL证书验证（报错OpenSSL SSL_read: Connection was reset, errno 10054）
+- $ git config --global http.sslVerify "false"
+
 ### 正确显示带中文的目录、文件
 - git config --global core.quotepath false
 
