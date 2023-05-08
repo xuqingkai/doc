@@ -1,5 +1,8 @@
-# GitHub功能测试专用库
+# 文档
+
+## 阿里云git使用建议
 https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6db40aae9e200468c5fbc
+
 ## 【使用规范】
 - master分支一般为主分支，默认分支，是作为软件最新的版本发布线。
 - develop分支是主力开发分支，各小组分支开发完毕并检验后合并到此，测试人员随时可以从此拉取代码打包测试。
