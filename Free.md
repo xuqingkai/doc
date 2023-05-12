@@ -20,11 +20,18 @@ https://www.infinityfree.net/
 
 https://profreehost.com/
 
-以上二者其实是一家，分销网站而已，5G空间，流量不限，域名不限，但是不能改php7.4.8版本，
+以上二者其实是一家，分销网站而已，5G空间，流量不限，域名不限，但是不能改php7.4.8版本，不能做接口，只能用浏览器访问
 
 https://cloud.aiwnet.cn/
 
-美国，PHP空间，100M空间，20M数据库，无限流量，手工续费
+美国，PHP空间，100M空间，20M数据库，无限流量，手工续期
+
+https://www.awardspace.com/
+
+1G空间，5G流量，域名3个，可切换php版本，Mysql5.7或8.0数据库30M，禁用函数包含allow_url_fopen()所以无法打开远程文件
+
+https://www.000webhost.com/
+
 
 ### 免费ASP.NET空间
 https://freeasphosting.net/
