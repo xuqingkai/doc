@@ -28,10 +28,15 @@ https://cloud.aiwnet.cn/
 
 https://www.awardspace.com/
 
-1G空间，5G流量，域名3个，可切换php版本，Mysql5.7或8.0数据库30M，禁用函数包含allow_url_fopen()所以无法打开远程文件
+1G空间，5G流量，域名3个（3个站），可切换php版本，Mysql5.7或8.0数据库30M，禁用函数包含allow_url_fopen()所以无法打开远程文件
 
 https://www.000webhost.com/
 
+300M空间，3G流量，无FTP只能web上传
+
+https://sourceforge.net
+
+无限空间，无限贷款，空间无写入功能，可绑定域名10个
 
 ### 免费ASP.NET空间
 https://freeasphosting.net/
