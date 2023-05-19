@@ -32,7 +32,7 @@ https://www.awardspace.com/
 
 https://www.000webhost.com/
 
-300M空间，3G流量，无FTP只能web上传，有默认域名，可cname绑定域名
+300M空间，3G流量，无FTP只能web上传，有默认域名，可cname绑定域名，国内无法访问
 
 https://sourceforge.net
 
