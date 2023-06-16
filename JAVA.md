@@ -15,7 +15,7 @@ D:\Program Files\Java\jdk1.8.0_202
 
 - CLASSPATH
 ```
-.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 ```
 
 - PATH
