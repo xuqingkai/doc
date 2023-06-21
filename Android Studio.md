@@ -1,3 +1,11 @@
+### 修改gradle的缓存目录
+#### 全局
+菜单File，Setting，Build...，gradle
+#### 单个项目
+修改gradle.properties文件
+gradle.user.home=D:/Cache/.gradle
+
+
 ### 提示java版本不支持gradle版本
 
 - The type java.lang.Object cannot be resolved It is indirectly referenced
