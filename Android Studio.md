@@ -2,7 +2,7 @@
 ### 设置系统变量
 新建系统环境变量，名称ANDROID_SDK_HOME，值为你希望存放到的路径
 ### 修改C:\Users\Administrator\.android\avd下的ini文件
-打开文件，修改里面的路径，并迁移对应的文件夹到对应位置 
+打开文件，修改里面的路径，并迁移对应的文件夹到对应位置  
 如果出现安装APP失败的问题，可以尝试打开菜单File，Setting，Build...，Debugger，instant Run，取消第一个选中状态
 
 
