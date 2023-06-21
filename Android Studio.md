@@ -2,8 +2,7 @@
 #### 全局
 菜单File，Setting，Build...，gradle
 #### 单个项目
-修改gradle.properties文件
-gradle.user.home=D:/Cache/.gradle
+修改gradle.properties文件，gradle.user.home=D:/Cache/.gradle
 
 
 ### 提示java版本不支持gradle版本
