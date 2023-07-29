@@ -23,4 +23,26 @@ composer require topthink/think-view
 composer require topthink/think-multi-app
 ```
 
-
+### PlanetScale数据库在thinkphp的证书配置模式
+```
+'mysql' => [
+            // 数据库类型
+            'type'            => env('database.type', 'mysql'),
+            // 服务器地址
+            'hostname'        => env('database.hostname', 'aws.connect.psdb.cloud'),//
+            // 数据库名
+            'database'        => env('database.database', ''),
+            // 用户名
+            'username'        => env('database.username', ''),
+            // 密码
+            'password'        => env('database.password', ''),
+            // 端口
+            'hostport'        => env('database.hostport', '3306'),
+            // 数据库连接参数
+            'params'          => [
+                //Debian/Ubuntu
+                //\PDO::MYSQL_ATTR_SSL_CA => "/etc/ssl/certs/ca-certificates.crt",
+                //RedHat/Fedora/CentOS
+                \PDO::MYSQL_ATTR_SSL_CA => "/etc/pki/tls/certs/ca-bundle.crt",
+            ],
+```
