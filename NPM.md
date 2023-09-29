@@ -88,6 +88,14 @@ npm root
 #### 查看全局的包的安装路径
 npm root -g
 
+## 本地web服务：主要用于以http方式浏览本地静态文件
+
+### 安装
+npm install serve -g
+
+### 启动：默认当前文件夹
+serve [指定文件夹]
+
 
 ## 常见问题
 
