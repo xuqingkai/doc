@@ -29,7 +29,7 @@ npm insall 包名 --save-dev 或者 npm insall 包名 -D
 npm update 包名
 
 #### 修改包源
-npm install -g cnpm --registry=https://registry.npmmirror.com
+npm config set registry https://registry.npmmirror.com
 
 #### 更改全局目录，记得先创建好npm_global目录
 npm config set prefix "D:\Program Files\nodejs\npm_global"
