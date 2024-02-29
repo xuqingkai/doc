@@ -27,3 +27,7 @@ rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
 
 ### 安装windows11系统时，跳过创建联网账号，只创建本地账户
 安装 Windows 11 时，使用用户名 no@thankyou.com 登录，即可跳过联网账户，轻松创建本地账 
+
+
+### 更改新建文件默认编码
+控制面板->时钟和区域->区域->管理->更改系统区域设置,勾选使用简体中文
