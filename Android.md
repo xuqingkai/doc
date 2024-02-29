@@ -64,3 +64,7 @@ dependencies {
 - 首先确认APP是否注册了位置权限：ACCESS_COARSE_LOCATION和ACCESS_FINE_LOCATION
 - 判断设备是否开启了GPS位置开关
 - 判断当前APP是否被授予了位置权限。
+
+### targetSDKVersion版本>29时，无法请求http请求，只能请求https
+- res目录下创建目录“xml”，并在其中创建文件：network_security_config.xml，文件名其实可以随意
+- AndroidManifest.xml文件中application节点增加属性：android:networkSecurityConfig="@xml/network_security_config"
