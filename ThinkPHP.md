@@ -30,6 +30,16 @@ composer require topthink/think-multi-app
 composer require topthink/think-filesystem
 ```
 
+- 验证码
+```
+composer require topthink/think-captcha
+```
+
+- ThinkPHP支持使用注解方式定义路由和验证，需要安装额外的扩展
+```
+composer require topthink/think-annotation
+```
+
 ### PlanetScale数据库在thinkphp的证书配置模式
 ```
 'mysql' => [
