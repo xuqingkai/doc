@@ -3,3 +3,8 @@
 - 如果上一步解决问题，就不用下一步了
 - 地址栏输入：chrome://flags/，然后回车，再搜索“gpu”，列表中找到：“GPU rasterization”(GPU 渲染) 以及 “Accelerated 2D canvas”(2D 图形加速) 两项
 - 将它们都设为“Disabled”禁用即可。点击右下角的“ReLaunch”重启浏览器。
+### 允许跨域
+- 打开地址：edge://flags/#block-insecure-private-network-requests
+- 将“Allow insecure private network requests”设置为“Enabled”；
+
+ 
