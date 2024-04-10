@@ -54,4 +54,7 @@ dotnet add reference src/xxxx.csproj
 dotnet add src/ProjectA.csproj reference src/ProjectB.csproj
 ```
 
-1
+- 清理.Net项目的构建
+```
+dotnet clean
+```
