@@ -1,4 +1,9 @@
 ### 常用命令
+- 安装本地调试证书
+```
+dotnet dev-certs https --trust
+```
+
 - 创建项目前，查看可用项目模板的列表
 ```
 dotnet new list
