@@ -131,5 +131,6 @@ HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\11.0\DataProje
 - 工具/选项/查询结果/SQL Server/以网格显示结果/复制或保存时保留CR/LF(E)，勾选后，重启SMSS即可
 
 ### 将数据库调整为支持中文，否则数据库中存入中文字符串会变成问号
+- 数据库，右键，选项，维护，排序规则，Chinese_PRC_90_CI_AS
 - ALTER DATABASE xqk_test COLLATE Chinese_PRC_90_CI_AS
 
