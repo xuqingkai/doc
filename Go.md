@@ -23,3 +23,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 set GOOS=linux
 go env -w GOOS=linux
 ```
+```
+set GOOS=windows
+go env -w GOOS=windows
+```
