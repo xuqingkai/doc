@@ -17,3 +17,9 @@ go env -w GOPROXY=https://goproxy.cn,direct
 - 在该文件夹下，运行go build，会在当前文件夹下生成bee.exe
 - 复制bee.exe到C:\Users\Administrator\go\bin
 - 注意该路径是否已经添加到系统变量
+
+### windows下编译linux执行程序，这样的好处是，当需要编译windows的exe文件时，可以用-buildmode=exe参数实现
+```
+set GOOS=linux
+go env -w GOOS=linux
+```
