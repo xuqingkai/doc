@@ -82,7 +82,7 @@ extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/zip.
 - 默认当前目录为根目录，文件有就响应，没有就404
 ```
 php -S 0.0.0.0:9000
-``
+```
 - 指定路由文件，文件返回false则查找资源文件，否则就返回执行结果
 ```
 php -S 0.0.0.0:9000 /code/tp/public/router.php
