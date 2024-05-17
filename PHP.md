@@ -56,6 +56,7 @@ rpm-e php-common-5.3.3-22.el6.x86_64
 ```
 curl http://download.bt.cn/install/update6.sh|bash
 ```
+
 ### 重新编译zip
 ```
 cd /www/server/php/73/src/ext/zip/
@@ -63,15 +64,47 @@ cd /www/server/php/73/src/ext/zip/
 ./configure --with-php-config=/www/server/php/73/bin/php-config
 make && make install
 ```
+
 ### php配置文件添加
 ```
 extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/fileinfo.so
 extension = /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/zip.so
 ```
+
 ### WIN10无法安装PHPManagerForIIS的解决办法
 注册表找：KEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters
 
 右侧的 MajorVersion 是DWORD值，它的值十进制是10，把它改成9
 
 安装完毕后，务必修改回来
+
+### PHP内置服务器启动
+- 默认当前目录为根目录，文件有就响应，没有就404
+```
+php -S 0.0.0.0:9000
+``
+- 指定路由文件，文件返回false则查找资源文件，否则就返回执行结果
+```
+php -S 0.0.0.0:9000 /code/tp/public/router.php
+```
+```
+// router.php
+if (php_sapi_name() == 'cli-server') {
+    /* 发送静态资源并返回 false */
+}
+/* 继续正常的 index.php 操作 */
+```
+```
+if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"])) {
+    return false;
+} else {
+    $_SERVER["SCRIPT_FILENAME"] = __DIR__ . '/index.php';
+
+    require __DIR__ . "/index.php";
+}
+```
+- 指定启动根目录，该参数决定了静态文件的访问地址，必须放在路由文件参数前
+```
+php -S 0.0.0.0:9000 -t /code/tp/public /code/tp/public/router.php
+```
 
