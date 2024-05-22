@@ -134,3 +134,14 @@ HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\11.0\DataProje
 - 数据库，右键，选项，维护，排序规则，Chinese_PRC_90_CI_AS
 - ALTER DATABASE xqk_test COLLATE Chinese_PRC_90_CI_AS
 
+### 补货异常
+```
+BEGIN TRY
+-- 你的sql
+END TRY
+BEGIN CATCH
+    SELECT
+        ERROR_NUMBER() AS ErrorNumber,
+        ERROR_MESSAGE() AS ErrorMessage;
+END CATCH
+```
