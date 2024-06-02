@@ -2,10 +2,10 @@
 ### 安装
 - 【LINUX】
 ```
-composer create-project topthink/think wwwroot
+composer create-project topthink/think tp
 ```
 ```
-composer create-project topthink/think=6.x wwwroot
+composer create-project topthink/think=6.x tp6
 ```
 ### 更新
 ```
