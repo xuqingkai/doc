@@ -4,6 +4,9 @@
 ```
 composer create-project topthink/think wwwroot
 ```
+```
+composer create-project topthink/think=6.x wwwroot
+```
 ### 更新
 ```
 composer update topthink/framework
