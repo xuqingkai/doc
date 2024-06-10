@@ -19,7 +19,10 @@
 - composer update
 
 ### 版本约束
-- composer require topthink/think-orm=2.x
+- composer require author/xxx:1.x
+- composer require author/xxx:1.x@dev
+- composer require author/xxx=1.x@alpha
+- composer require author/xxx=1.x@beta
 - >=1.0
 - >=1.0 <2.0
 - >=1.0 <1.1 || >=1.2
