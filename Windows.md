@@ -34,3 +34,10 @@ rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
 
 ### 远程服务器启用声音服务
 开始运行“gpedit.msc”/计算机管理/管理模板/windows组件/远程桌面服务/远程桌面会话主机/设备和资源重定向/允许音频和视频播放重定向/已启用
+
+### Win11或Win10重置电脑提示“找不到恢复环境”
+- 1，按住【win+x】选A管理员运行终端，输入：reagentc /info
+- 2，如果提示：Disabled，则执行：reagentc /enable
+- 3，重新执行第1步，应该会提示成功，如提示REAGENTC.EXE: 未找到 Windows RE 映像，则执行：
+reagentc /setreimage /path C:\Recovery\WindowsRE\Winre.wim
+- 4，重新执行第1步，应该会提示成功：Enabled
