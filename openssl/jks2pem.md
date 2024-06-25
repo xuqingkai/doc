@@ -7,7 +7,7 @@ keytool -v -importkeystore -srckeystore demo.jks -srcstoretype jks -srcstorepass
 ```
 
 - 再进入到OpenSSL安装目录下的bin目录，执行以下代码，转为key格式
-- 会提示设置一个密码，随便设置一个6位数字如123456，记住即可
+- 会提示输入一个密码，也就是前面的存储密码：000000
   
 ```
 ./openssl.exe pkcs12 -in demo.pfx -nocerts -nodes -out demo.key
