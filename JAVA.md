@@ -23,3 +23,5 @@ D:\Program Files\Java\jdk1.8.0_202
 %JAVA_HOME%\bin
 %JAVA_HOME%\jre\bin
 ```
+### 运行JAR包
+java -jar your-application.jar
