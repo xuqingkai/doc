@@ -3,7 +3,7 @@
 openssl rsa -RSAPublicKey_in -in <filename> -pubout
 ```
 ```
-//PHP
+//PHP，输出到变量$pkcs8
 openssl_pkey_export(openssl_pkey_get_private($pkcs1),$pkcs8);
 ```
 
