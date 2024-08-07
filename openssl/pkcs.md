@@ -1,8 +1,12 @@
 ### PKCS#1 转 PKCS#8:
+```
 openssl rsa -RSAPublicKey_in -in <filename> -pubout
+```
 
 ### PKCS#8 转 PKCS#1:
+```
 openssl rsa -pubin -in <filename> -RSAPublicKey_out
+```
 
 ### PKCS#1 格式密钥：
 ```
