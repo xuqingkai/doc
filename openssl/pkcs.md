@@ -2,6 +2,10 @@
 ```
 openssl rsa -RSAPublicKey_in -in <filename> -pubout
 ```
+```
+//PHP
+openssl_pkey_export(openssl_pkey_get_private($pkcs1),$pkcs8);
+```
 
 ### PKCS#8 转 PKCS#1:
 ```
