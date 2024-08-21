@@ -67,3 +67,8 @@ service sshd restart
 - debian/ubuntu：
 ``` apt-get install socat ```
 
+### CURL
+- GET请求：`curl http://www.test.com/`
+- POST请求：`curl -X POST -d 'a=1&b=2' http://www.test.com/`
+- POST请求：`curl -H "Content-Type: application/json" -X POST -d '{}' http://www.test.com/`
+- POST请求：`curl -H "Content-Type: application/json" -X POST -d @data.json http://www.test.com/`
