@@ -55,6 +55,8 @@ service sshd restart
 
 释放端口：kill -9 进程pid号
 
+查看进程所在目录：pwdx <进程PID>
+
 ### 卸载jdk包
 查询：rpm -qa|grep jdk  
 显示：jdk-1.7.0_71-fcs.x86_64  
