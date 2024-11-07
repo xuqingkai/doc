@@ -2,7 +2,7 @@
 - https://www.oracle.com/java/technologies/downloads/archive/
 - https://repo.huaweicloud.com/java/jdk/
 - http://www.codebaoku.com/jdk/jdk-index.html
-```
+
 
 ### 环境变量
 WIN10：设置，关于，高级系统设置
