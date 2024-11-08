@@ -17,8 +17,8 @@
 ## 使用
 
 ### 初始化
-- composer install，读取composer.lock文件为准
-- composer update，读取composer.json文件为准
+- composer install，如果有则以composer.lock文件为准
+- composer update，如果有则以composer.json文件为准
 
 ### 引入新包并实现版本约束
 - composer require author/xxx:1.3.2
