@@ -21,13 +21,10 @@
 - composer update，读取composer.json文件为准
 
 ### 引入新包并实现版本约束
-- composer require author/xxx:1.x
-- composer require author/xxx:1.x@dev
-- composer require author/xxx=1.x@alpha
-- composer require author/xxx=1.x@beta
-- composer require author/xxx:>=1.0
-- composer require author/xxx:>=1.0 <2.0
-- composer require author/xxx:>=1.0 <1.1 || >=1.2
-- composer require author/xxx:1.0.* 相当于>=1.0 <1.1
-- composer require author/xxx:^1.2.3 相当于>=1.2.3 <2.0.0
+- composer require author/xxx:1.2.3
+- composer require author/xxx:1.2.*
+- composer require author/xxx:1.*
+- composer require author/xxx:1.1@dev
+- composer require author/xxx:1.1@alpha
+- composer require author/xxx:1.1@beta
 - 如果你想指定版本只要稳定版本，你可以在版本后面添加后缀-stable。
