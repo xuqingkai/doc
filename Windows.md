@@ -9,7 +9,7 @@ Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.In
 - 2，接第1步，远程桌面会话主机，设备和资源重定向，启用【音频和视频播放重定向】，启用【允许音频录制重定向】
 - 3，接第1步，远程桌面连接客户端，RemoteFX USB 设备重定向，启用【允许此计算机中受支持的其他 RemoteFX USB 设备的 RDP 重定向】
 - 4，重新远程登录后即可，如果还不行，右键点击声音小喇叭图标，启用声音服务即可
-- 
+
 ### 查看端口情况
 - netstat -ano
 
