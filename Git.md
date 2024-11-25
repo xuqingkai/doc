@@ -13,8 +13,8 @@ https://thoughts.teambition.com/sharespace/5d88b152037db60015203fd3/folders/5ff6
 ## 【使用技巧】
 
 ### Linux初始化配置
-- 1，建议先下载最新版本：`yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm`
-- 2，安装：`yum -y install git`
+- 1，建议先下载并更新到最新版本：参考下面一条
+- 2，设置自动保存密码：git config --global credential.helper store
 - 3，设置支持中文编码：`git config --global core.quotepath false`
 - 4，设置全局账号：`git config --global user.name xuqingkai`
 - 5，设置全局邮箱：`git config --global user.email xuqingkai@git.com`
