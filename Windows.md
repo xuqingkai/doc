@@ -47,3 +47,6 @@ rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
 - 3，重新执行第1步，应该会提示成功，如提示REAGENTC.EXE: 未找到 Windows RE 映像，则执行：
 reagentc /setreimage /path C:\Recovery\WindowsRE\Winre.wim
 - 4，重新执行第1步，应该会提示成功：Enabled
+
+### WIN10，窗口改为显示边框阴影
+计算机，属性，高级系统设置，高级，性能，设置，视觉效果，自定义，在窗口下显示阴影（取消再选中）
