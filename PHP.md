@@ -107,4 +107,9 @@ if (is_file($_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"])) {
 ```
 php -S 0.0.0.0:9000 -t /code/tp/public /code/tp/public/router.php
 ```
+- cd到router所在目录，linux防止进程被杀
+```
+cd website.example.com/wwwroot
+nohup php -S 0.0.0.0:50080 -t ./ router.php &
+```
 
