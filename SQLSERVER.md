@@ -134,7 +134,7 @@ HKEY_CURRENT_USER\Software\Microsoft\SQL Server Management Studio\11.0\DataProje
 - 数据库，右键，选项，维护，排序规则，Chinese_PRC_90_CI_AS
 - ALTER DATABASE xqk_test COLLATE Chinese_PRC_90_CI_AS
 
-### 补货异常
+### 捕获异常
 ```
 BEGIN TRY
 -- 你的sql
@@ -144,4 +144,11 @@ BEGIN CATCH
         ERROR_NUMBER() AS ErrorNumber,
         ERROR_MESSAGE() AS ErrorMessage;
 END CATCH
+```
+
+### 不支持对系统目录进行即席更新
+- 打开并登录SQL Server Management Studio，选择【master】数据库新建查询,执行以下语句
+```
+sp_configure 'allow updates',0 RECONFIGURE WITH override
+RECONFIGURE
 ```
