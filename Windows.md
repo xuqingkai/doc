@@ -13,6 +13,10 @@ Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.In
 ### 查看端口情况
 - netstat -ano
 
+### 解决pid=4，ntoskrnl占用80端口问题
+- 打开cmd，输入net stop http，输入y确定，等待关闭完成，如果无法关闭尝试管理员方式打开cmd，或重启查看80端口是否解除占用
+- 输入Sc config http start= disabled
+
 ### windows照片查看器无法显示此图片
 - 开始，控制面板，查看方式选大图标，颜色管理，高级，（Windows颜色系统），（设备配置文件），选“Agfa：Swop Standard”。
 
