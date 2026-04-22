@@ -57,3 +57,5 @@ reagentc /setreimage /path C:\Recovery\WindowsRE\Winre.wim
 
 ### 微软账号无法登录，0x80190001错误
 开始，运行，输入【inetcpl.cpl】后回车，高级，勾选所有TLS相关的选项，应用，重启。
+dns改为：4.2.2.2和4.2.2.1
+从edge设置里或者从系统设置里，搜索代理，点击打开对话框，然后取消代理地址
