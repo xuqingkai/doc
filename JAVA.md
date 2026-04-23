@@ -18,7 +18,7 @@ D:\Program Files\Java\jdk1.8.0_202
 ;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 ```
 
-- PATH【追加】
+- PATH【追加】,从 JDK 9 开始，\jre\bin也不需要了
 ```
 %JAVA_HOME%\bin
 %JAVA_HOME%\jre\bin
